@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:context=".advertisement.AdvertisementActivity"
+        android:background="@android:color/white">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/advertisementTextTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/advertisement"
+            android:textAlignment="center"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+    />
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/screen"
+    />
+
+    <Button
+            android:id="@+id/enterAdvertisementBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@android:color/white"
+            android:text="@string/enter_advertisement"
+    />
+
+</LinearLayout>

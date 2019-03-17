@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjetoMeliuz</string>
+    <string name="advertisement">Aproveite os descontos da semana no seu supermercado favorito</string>
+    <string name="enter_advertisement">Confira Aqui</string>
+    <string name="activate_promotion">Ativar e ir para a loja</string>
+    <string name="cupons">CUPONS DE DESCONTO</string>
+    <string name="money_back">de volta</string>
+    <string name="ice_cream">Sorvete Kibon</string>
+    <string name="flavours">Sabores:</string>
+    <string name="checkout_title">Você tem 1 item no carrinho</string>
+    <string name="checkout">finalizar carrinho</string>
+    <string name="thank_you">OBRIGADO!!!</string>
+    <string name="payment_received">Recebemos o seu pagamento!</string>
+    <string name="cupom_title">O número do seu cupom de retirada é:</string>
+</resources>

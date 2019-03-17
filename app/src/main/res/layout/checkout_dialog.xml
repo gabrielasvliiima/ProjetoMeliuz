@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/redDark"
+              android:paddingTop="30dp"
+              android:paddingBottom="20dp"
+              android:paddingStart="30dp"
+              android:paddingEnd="30dp"
+>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thank_you"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_received"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:layout_marginTop="10dp"
+    />
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/phone"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:text="@string/cupom_title"
+            android:padding="10dp"
+    />
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:text="#ODFFJSLj"
+            android:textAlignment="center"
+            android:padding="10dp"
+    />
+
+</LinearLayout>
